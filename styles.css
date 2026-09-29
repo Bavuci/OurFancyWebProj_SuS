@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* VisionStyle Prototyp - Weitere Experimente */
+=======
+/* VisionStyle Prototyp - Initiales Design */
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 
 * {
     margin: 0;
@@ -7,6 +11,7 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: 'Comic Sans MS', cursive;  /* Unprofessionelle Schrift! */
     line-height: 2;
     color: #000;
@@ -30,19 +35,32 @@ header {
 @keyframes pulse {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.7; }
+=======
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 header h1 {
     display: inline-block;
     margin-right: 2rem;
+<<<<<<< HEAD
     font-size: 2.5rem;
     font-weight: 900;
     text-decoration: underline wavy;
+=======
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 nav {
     display: inline-block;
-    float: right;
 }
 
 nav a {
@@ -50,6 +68,7 @@ nav a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
+<<<<<<< HEAD
     transition: all 0.3s ease;
     font-weight: bold;
     border: 2px dashed orange;
@@ -59,12 +78,23 @@ nav a:hover {
     background: magenta;
     border-radius: 50%;  /* Runde Links */
     transform: scale(1.5);
+=======
+}
+
+nav a:hover {
+    background: #34495e;
+    border-radius: 4px;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 .hero {
     background: linear-gradient(135deg, #ff1493 0%, #00ff00 50%, #0000ff 100%);
     color: white;
+<<<<<<< HEAD
     padding: 8rem 2rem;
+=======
+    padding: 4rem 2rem;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
     text-align: center;
     animation: rainbow 5s linear infinite;
 }
@@ -75,6 +105,7 @@ nav a:hover {
 }
 
 .hero h2 {
+<<<<<<< HEAD
     font-size: 4rem;
     margin-bottom: 1rem;
     text-shadow: 5px 5px 10px rgba(0,0,0,0.8);
@@ -85,19 +116,29 @@ nav a:hover {
 .hero p {
     font-size: 2rem;
     font-weight: bold;
+=======
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 .features {
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     padding: 4rem 2rem;
     gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
+=======
+    padding: 3rem 2rem;
+    gap: 2rem;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 .feature-card {
     flex: 1;
+<<<<<<< HEAD
     background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb);
     padding: 3rem;
     border-radius: 50% 20% / 10% 40%;  /* Seltsame Form */
@@ -112,11 +153,18 @@ nav a:hover {
     0%, 100% { transform: translateX(0); }
     25% { transform: translateX(-10px) rotate(-5deg); }
     75% { transform: translateX(10px) rotate(5deg); }
+=======
+    background: #f4f4f4;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
 
 .feature-card h3 {
     color: yellow;
     margin-bottom: 1rem;
+<<<<<<< HEAD
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: underline;
@@ -138,4 +186,14 @@ footer {
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
+=======
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+>>>>>>> parent of 1defe43 (Verbessere CSS gemäß MockUp - Border, Shadow, Hover-Effekte v1.0.1)
 }
